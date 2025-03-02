@@ -16,15 +16,18 @@ export default function Home() {
       </div>
       <MainPage />
       <div className="bg-black">
+        <div className="transition-opacity duration-1000 ease-in-out">
+          <MoreInfo />
+          <Build />
+          <div className="lg:mx-auto lg:w-[60vw] h-auto">
+            <Faq />
 
-        <MoreInfo />
-        <Build />
-        <div className="lg:mx-auto lg:w-[60vw] h-auto">
-          <Faq />
-
+          </div>
+          <GetStarted />
+          <Footer />
         </div>
-        <GetStarted />
-        <Footer />
+
+
 
 
       </div>

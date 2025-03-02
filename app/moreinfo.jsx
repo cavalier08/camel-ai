@@ -59,8 +59,8 @@ function SlidingImg({ src }) {
 function Display({ title, heading1, heading2, src }) {
     return (
         <div className="mb-15">
-            <div className="">
-                <h3 className="text-3xl w-auto border-dashed rounded-md border-gray-800 border-dashed border-2 p-2 flex justify-center items-center">{title}</h3>
+            <div className="border-dashed w-[70vw] flex justify-center items-center rounded-md border-gray-800 mx-auto border-dashed border-2">
+                <h3 className="text-3xl lg:text-4xl mx-auto w-auto p-2">{title}</h3>
             </div>
             <div className="text-white m-4 justify-items-center items-center text-lg font-semibold">
                 <h4 className="">{heading1}</h4>

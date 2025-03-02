@@ -43,7 +43,7 @@ export default function MainPage() {
 
 function FunFact({ title }) {
     return (
-        <div className="w-50 bg-gray-700 bg-opacity-10 text-gray-50 flex p-2 border-opacity-0 rounded-xl justify-center m-1">
+        <div className="w-50 bg-gray-500/50 text-gray-50 flex p-2 border-opacity-0 rounded-xl justify-center m-1">
             <img src={cat_pic} />
             {title}
         </div>

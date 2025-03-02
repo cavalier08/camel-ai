@@ -4,7 +4,7 @@ import Form from './form';
 
 export default function Footer() {
     return (
-        <div className="lg:flex lg:justify-items lg:w-[70vw] lg:items-center text-white mx-auto mb-40">
+        <div className="lg:flex lg:justify-items lg:w-[70vw] lg:items-center text-white mx-auto mb-40 pl-5">
             <div className="">
                 <Form />
 

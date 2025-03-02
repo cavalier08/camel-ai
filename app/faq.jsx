@@ -22,10 +22,10 @@ function Question({ question, response }) {
 
         <div className="p-2 h-15 border-b border-gray-600">
 
-            <div >
+            <div className="flex ">
                 <h5 className="text-white font-semibold text-lg ">{question}</h5>
-                <button>
-
+                <button className=" ml-auto text-white text-2xl mr-5">
+                    ^
                 </button>
 
 
