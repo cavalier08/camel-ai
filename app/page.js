@@ -23,7 +23,7 @@ export default function Home() {
             <Faq />
 
           </div>
-          <div className="w-[70vw] mx-auto ">
+          <div className="w-[70vw] lg:w-[80vw] mx-auto">
             <GetStarted />
 
           </div>
