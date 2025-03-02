@@ -1,6 +1,7 @@
 import "./globals.css";
 import cat_pic from './img/cat_pic.jpg';
 import TryButton from './trybutton';
+import BlackTryButton from "./blacktrybutton";
 
 
 export default function MainPage() {
@@ -9,11 +10,11 @@ export default function MainPage() {
 
             <h1 className="text-4xl font-extrabold mb-10 lg:text-6xl mt-20">The AI Data Analyst</h1>
 
-            <h3 className="text-lg lg:text-2xl mb-15">Ask questions, get instant charts and insights from your data.</h3>
+            <h3 className="text-lg font-medium lg:font-extrabold lg:text-2xl mb-15">Ask questions, get instant charts and insights from your data.</h3>
 
             <div className="m-10 w-screen flex justify-center items-center">
                 <TryButton title="Try free" />
-                <TryButton title="Book demo" />
+                <BlackTryButton title="Book demo" />
             </div>
 
 
@@ -42,7 +43,7 @@ export default function MainPage() {
 
 function FunFact({ title }) {
     return (
-        <div className="w-50 bg-gray-700 bg-opacity-10 text-gray-50 flex p-2 border-opacity-0 rounded-xl justify-center m-2">
+        <div className="w-50 bg-gray-700 bg-opacity-10 text-gray-50 flex p-2 border-opacity-0 rounded-xl justify-center m-1">
             <img src={cat_pic} />
             {title}
         </div>

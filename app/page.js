@@ -9,7 +9,7 @@ import Build from './build';
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-r from-indigo-950 via-slate-600 to-pink-980">
+    <div className="bg-cover bg-[url('https://e1.pxfuel.com/desktop-wallpaper/71/12/desktop-wallpaper-gaussian-blur-gradient-simple-backgrounds-blurred-colors-color-gradient.jpg')]">
       <div className="flex justify-center items-center">
         <Navbar />
 
@@ -19,7 +19,7 @@ export default function Home() {
 
         <MoreInfo />
         <Build />
-        <div className="lg:flex lg:justify-center lg:items-center lg:w-[60vw]">
+        <div className="lg:mx-auto lg:w-[60vw] h-auto">
           <Faq />
 
         </div>

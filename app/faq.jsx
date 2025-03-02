@@ -4,7 +4,7 @@ import './globals.css';
 
 export default function Faq() {
     return (
-        <div className="bg-black mb-25 mt-25 w-full">
+        <div className="mb-25 mt-25 md:w-full">
             <h3 className="text-4xl justify-center flex">FAQs</h3>
             <Question question="How is my data stored?" />
             <Question question="Do you train on my data?" response="camelAI's infrastructure is hosed on AWS." />
@@ -12,6 +12,7 @@ export default function Faq() {
             <Question question="How do you pull my data?" />
 
         </div>
+
     );
 }
 

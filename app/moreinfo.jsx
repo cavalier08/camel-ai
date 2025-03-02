@@ -67,7 +67,7 @@ function Display({ title, heading1, heading2, src }) {
                 <h4 className="">{heading2}</h4>
             </div>
             <div className="flex justify-center items-center">
-                <div className="bg-gradient-to-r from-indigo-900 via-slate-600 to-yellow-900 w-[80vw] h-[50vh] lg:h-[80vh]  md:min-w-40 rounded-xl">
+                <div className="bg-[url('https://e1.pxfuel.com/desktop-wallpaper/71/12/desktop-wallpaper-gaussian-blur-gradient-simple-backgrounds-blurred-colors-color-gradient.jpg')] bg-cover w-[80vw] h-[50vh] lg:h-[80vh]  md:min-w-40 rounded-xl">
                     <img src={src} />
 
                 </div>
