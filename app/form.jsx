@@ -10,7 +10,7 @@ export default function Form() {
 
 
                 </label>
-                <div className="flex h-auto">
+                <div className="flex h-auto flex-wrap">
                     <input className="rounded-3xl m-4 h-12 bg-gray-50 border border-gray-300 text-gray-300 text-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5 bg-gray-900" placeholder="email" type="text">
                     </input>
                     <div className="text-black">

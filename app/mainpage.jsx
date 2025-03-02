@@ -8,17 +8,17 @@ export default function MainPage() {
     return (
         <div className="h-full w-screen justify-items-center">
 
-            <h1 className="text-4xl font-extrabold mb-10 lg:text-6xl mt-20">The AI Data Analyst</h1>
+            <h1 className="text-4xl font-extrabold mb-10 lg:text-6xl mt-20 lg:mt-[20vh]">The AI Data Analyst</h1>
 
-            <h3 className="text-lg font-medium lg:font-extrabold lg:text-2xl mb-15">Ask questions, get instant charts and insights from your data.</h3>
+            <h3 className="text-lg font-medium w-[80vw] md:w-[90vw] h-auto lg:font-extrabold lg:text-2xl mb-15 text-center">Ask questions, get instant charts and insights from your data.</h3>
 
-            <div className="m-10 w-screen flex justify-center items-center">
+            <div className="m-10 w-[70vw] flex flex-wrap justify-center items-center">
                 <TryButton title="Try free" />
                 <BlackTryButton title="Book demo" />
             </div>
 
 
-            <div className="w-screen p-4 flex justify-center items-center">
+            <div className="w-screen p-4 flex justify-center items-center flex-wrap">
                 <FunFact title="Y Combinator backed" />
 
                 <FunFact title="Enterprise Security" />
@@ -28,9 +28,7 @@ export default function MainPage() {
 
             <Video />
 
-            <div className="h-20 w-screen">
 
-            </div>
 
 
 
@@ -43,16 +41,16 @@ export default function MainPage() {
 
 function FunFact({ title }) {
     return (
-        <div className="w-50 bg-gray-500/50 text-gray-50 flex p-2 border-opacity-0 rounded-xl justify-center m-1">
-            <img src={cat_pic} />
-            {title}
+        <div className="w-50 bg-gray-500/50 text-gray-50 p-2 border-opacity-0 rounded-xl justify-center m-1 flex">
+            <img className="w-5 h-5 m-0 float-left mr-2" src="https://i.imgur.com/BTD22A6.png" />
+            <h3 className="">{title}</h3>
         </div>
     );
 }
 
 function Video() {
     return (
-        <div className="w-[75vw] h-[60vh] rounded-xl bg-black">
+        <div className="w-[75vw] h-[60vh] mx-auto rounded-xl bg-black">
             <img src={cat_pic}></img>
 
         </div>

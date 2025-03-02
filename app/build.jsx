@@ -3,8 +3,8 @@ import './globals.css';
 
 export default function Build() {
     return (
-        <div className="flex mx-auto lg:w-[70vw] ">
-            <div className="sm:w-2/5 mr-4 ml-4">
+        <div className="flex mx-auto lg:w-[70vw] flex-wrap sm:flex-nowrap justify-center items-center">
+            <div className="sm:w-2/5 mr-4 ml-4 mb-20">
                 <h3 className="text-3xl mb-4">Want to build with camelAI?</h3>
 
                 <h4 className="text-xl text-gray-400">Embed AI-Powered analytics directly in your application with our API</h4>
