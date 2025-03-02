@@ -21,3 +21,13 @@ body {
   background: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+a {
+  padding: 3px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding-bottom: 24px;
+  font-size: 0.80rem;
+}

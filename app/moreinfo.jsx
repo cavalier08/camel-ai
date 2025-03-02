@@ -2,17 +2,19 @@ import './globals.css';
 
 export default function MoreInfo() {
     return (
-        <div className="bg-black opacity-90">
+        <div className="bg-black ">
             <div className="h-20 w-screen">
 
             </div>
 
 
-
-            <div className="bg-slate-900 opacity-60 h-content w-screen p-2">
+            {/* 
+            <div className="bg-slate-900 h-content w-screen p-2">
                 <SlidingDisplay />
                 <SlidingDisplay />
             </div>
+*/}
+
             <Display title="Ask any question" heading1="Camel uses your live data." heading2="Get tables and charts instantly." />
 
             <Display title="Powerful Dashboards" heading1="Save any graph to a live dashboard." heading2="Start a chart to answer ad hoc questions." />
@@ -29,7 +31,7 @@ export default function MoreInfo() {
 
 function SlidingDisplay() {
     return (
-        <div className="transition-transform duration-1000 ease-in-out hover:translate-x-32 overflow-x-scroll flex wrap">
+        <div className="transition-transform duration-1000 ease-in-out hover:translate-x-32 overflow-x-scroll">
             <SlidingImg />
             <SlidingImg />
             <SlidingImg />
@@ -47,7 +49,7 @@ function SlidingDisplay() {
 
 function SlidingImg({ src }) {
     return (
-        <div className="w-20 h-20 bg-white m-3 rounded-lg">
+        <div className="w-20 h-20 bg-white m-3 rounded-lg opacity-60 hover:opacity-100 hover:w-30 hover:h-30 hover:z-99999">
             <img src={src} />
 
         </div>
